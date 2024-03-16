@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About Me
+title: About
 permalink: /
 subtitle: PhD Candidate at <a href='https://www.physicsandastronomy.pitt.edu/'>Department of Physics & Astronomy</a>, <a href='https://www.pitt.edu/'> University of Pittsburgh</a>.
 
