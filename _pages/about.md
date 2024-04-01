@@ -1,26 +1,25 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
-subtitle: PhD Candidate at <a href='https://www.physicsandastronomy.pitt.edu/'>Department of Physics & Astronomy</a>, <a href='https://www.pitt.edu/'> University of Pittsburgh</a>.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>300 Allen Hall,</p>
-    <p>3941 O'Hara Street,</p>
-    <p>Pittsburgh, PA, 15217.</p>
-    <p><a href="mailto:biprateep@pitt.edu">biprateep@pitt.edu</a></p>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-news: false # includes a list of news items
-latest_posts: false # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am currently finishing up my PhD at the University of Pittsburgh. Beginning Fall 2024, I will be joining the [Department of Statistical Sciences](https://www.statistics.utoronto.ca/) of [University of Toronto](https://www.utoronto.ca/) as a [Schmidt AI for Science Fellow](https://www.schmidtfutures.org/our-work-old/schmidt-ai-in-science-postdocs/) and the [Canadian Institute for Theoretical Astrophysics (CITA)](https://www.cita.utoronto.ca/) as a CITA fellow.
 
-My work involves developing statistical machine-learning tools to study the formation and evolution of the Universe and the galaxies within. I also work on designing large astronomical sky surveys which enable such statistical studies and am "[builder](https://www.desi.lbl.gov/collaboration/desi-builders/)" of the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/) collaboration. I am also passionate about developing a scientific community which is accessible and welcoming to all.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-You can find my publications along with an up-to-date citation record [here](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-5665-7912&sort=date%20desc%2C%20bibcode%20desc&p_=0). 
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

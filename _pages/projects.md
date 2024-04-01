@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
-description: Links to websites and blog posts for projects I have worked on.
+description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [Science, Outreach, Others]
+display_categories: [work, fun]
 horizontal: false
 ---
 

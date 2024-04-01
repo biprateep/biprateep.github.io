@@ -56,15 +56,6 @@
             </a>
           </li>
 
-          <!-- CV page -->
-          {%- if site.cv_pdf %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ site.cv_pdf}}" target="_blank" rel="noopener noreferrer">CV
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          {%- endif %}
-
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
@@ -116,13 +107,13 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <i class="fa-solid fa-moon"></i>
-                <i class="fa-solid fa-sun"></i>
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
             </li>
           {% endif %}
