@@ -1,0 +1,35 @@
+name: Update publications from ADS
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Update papers.bib from ADS
+        env:
+          ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
+        run: python bin/update_publications.py
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet _bibliography/papers.bib; then
+            git add _bibliography/papers.bib
+            git commit -m "Auto-update publications from ADS"
+            git push
+          else
+            echo "papers.bib unchanged."
+          fi

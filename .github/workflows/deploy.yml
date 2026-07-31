@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_bibliography/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -19,6 +20,7 @@ on:
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
+      - "!.github/workflows/update-publications.yml"
       - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
@@ -31,6 +33,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_bibliography/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
