@@ -23,4 +23,4 @@ I am currently an [Eric and Wendy Schmidt AI in Science Fellow](https://www.schm
 
 My work involves developing statistical machine-learning tools to study the formation and evolution of the Universe and the galaxies within. I also work on designing large astronomical sky surveys which enable such statistical studies and am "[builder](https://www.desi.lbl.gov/collaboration/desi-builders/)" of the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/) collaboration. I am also passionate about developing a scientific community that is accessible and welcoming to all.
 
-You can find my CV [here](https://biprateep.github.io/CV/CV_Biprateep_Dey.pdf) publications along with an up-to-date citation record [here](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-5665-7912&sort=date%20desc%2C%20bibcode%20desc&p_=0).
+You can find my CV [here](https://biprateep.github.io/CV/CV_Biprateep_Dey.pdf) and my publications along with an up-to-date citation record [here](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-5665-7912&sort=date%20desc%2C%20bibcode%20desc&p_=0).
