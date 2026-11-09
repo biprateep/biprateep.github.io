@@ -1,6 +1,67 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"ApJ":
+  url: https://iopscience.iop.org/journal/0004-637X
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ApJL":
+  url: https://iopscience.iop.org/journal/2041-8205
+  color: "#0056b3"
+
+"ApJS":
+  url: https://iopscience.iop.org/journal/0067-0049
+  color: "#004085"
+
+"AJ":
+  url: https://iopscience.iop.org/journal/1538-3881
+  color: "#1b4f72"
+
+"MNRAS":
+  url: https://academic.oup.com/mnras
+  color: "#6f42c1"
+
+"JCAP":
+  url: https://iopscience.iop.org/journal/1475-7516
+  color: "#117a65"
+
+"PRD":
+  url: https://journals.aps.org/prd
+  color: "#b03a2e"
+
+"PRL":
+  url: https://journals.aps.org/prl
+  color: "#922b21"
+
+"PASP":
+  url: https://iopscience.iop.org/journal/1538-3873
+  color: "#1f618d"
+
+"A&A":
+  url: https://www.aanda.org/
+  color: "#2874a6"
+
+"OJAp":
+  url: https://astro.theoj.org/
+  color: "#d35400"
+
+"MLST":
+  url: https://iopscience.iop.org/journal/2632-2153
+  color: "#8e44ad"
+
+"ML4PS":
+  url: https://ml4physicalsciences.github.io/
+  color: "#c0392b"
+
+"DESI DR1":
+  url: https://data.desi.lbl.gov/doc/releases/dr1/
+  color: "#2e4053"
+
+"DESI DR2":
+  url: https://www.desi.lbl.gov/
+  color: "#1c2833"
+
+"DESI Y1":
+  url: https://data.desi.lbl.gov/doc/releases/dr1/
+  color: "#2e4053"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"

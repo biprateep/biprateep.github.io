@@ -5,7 +5,7 @@ permalink: /projects/
 description: Links to websites and blog posts for projects I have worked on.
 nav: true
 nav_order: 3
-display_categories: [Science, Outreach, Others]
+display_categories: [Science, Others]
 horizontal: false
 ---
 

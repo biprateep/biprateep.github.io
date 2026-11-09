@@ -1,34 +1,35 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"newman":
+  - firstname: ["Jeffrey", "J.", "J. A.", "Jeffrey A."]
+    url: https://www.physicsandastronomy.pitt.edu/people/jeffrey-newman
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"andrews":
+  - firstname: ["Brett", "B.", "B. H.", "Brett H."]
+    url: https://www.physicsandastronomy.pitt.edu/people/brett-h-andrews
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"speagle":
+  - firstname: ["Joshua", "J.", "J. S.", "Joshua S."]
+    url: https://joshspeagle.com/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"lee":
+  - firstname: ["Ann", "A.", "A. B.", "Ann B."]
+    url: https://www.stat.cmu.edu/~annlee/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"izbicki":
+  - firstname: ["Rafael", "R."]
+    url: http://www.rizbicki.ufscar.br/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"dalmasso":
+  - firstname: ["Niccolò", "Niccolo", "N."]
+    url: https://niccolodalmasso.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"zhao":
+  - firstname: ["David", "D."]
+    url: https://www.stat.cmu.edu/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"zhou":
+  - firstname: ["Rongpu", "R."]
+    url: https://rongpuzhou.github.io/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"li":
+  - firstname: ["Ting", "T.", "T. S.", "Ting S."]
+    url: https://www.astro.utoronto.ca/

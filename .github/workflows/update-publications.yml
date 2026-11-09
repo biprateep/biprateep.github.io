@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update:
@@ -23,13 +24,21 @@ jobs:
           ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
         run: python bin/update_publications.py
       - name: Commit and push if changed
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet _bibliography/papers.bib; then
             git add _bibliography/papers.bib
-            git commit -m "Auto-update publications from ADS"
+            git commit -m "Auto-update publications from ADS [skip ci]"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "papers.bib unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+      - name: Trigger site deployment
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main

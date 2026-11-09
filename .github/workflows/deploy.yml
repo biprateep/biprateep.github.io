@@ -8,6 +8,11 @@ on:
     paths:
       - "assets/**"
       - "_bibliography/**"
+      - "_sass/**"
+      - "**.scss"
+      - "_plugins/**"
+      - "Gemfile"
+      - "Gemfile.lock"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -34,6 +39,11 @@ on:
     paths:
       - "assets/**"
       - "_bibliography/**"
+      - "_sass/**"
+      - "**.scss"
+      - "_plugins/**"
+      - "Gemfile"
+      - "Gemfile.lock"
       - "**.html"
       - "**.js"
       - "**.liquid"

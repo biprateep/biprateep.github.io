@@ -136,6 +136,8 @@
       {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
+    {% elsif entry.eprint or entry.archiveprefix %}
+      {% capture entrytype %}<em>{{ entry.journal | default: 'arXiv e-prints' }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}

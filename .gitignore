@@ -9,3 +9,7 @@ _site
 Gemfile.lock
 node_modules/
 vendor
+.agents/
+.cite-check/
+_bibliography/.cite-check/
+__pycache__/
